@@ -30,7 +30,7 @@ const ModalExample = props => {
     TotalPrice += Number(selectedItems[i].price);
   }
 
-  const { buttonLabel, className } = props;
+  const { className } = props;
 
   const [isOpen, setIsOpen] = useState(false);
 
