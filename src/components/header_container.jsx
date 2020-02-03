@@ -19,7 +19,7 @@ const Example = props => {
         <Col xs="6">
           <div>{selectedItems.length} items were selected</div>
           <div> Total price: {TotalPrice} MDL</div>
-          <CartModal buttonLabel="Open Cart" />
+          <CartModal />
         </Col>
       </Row>
     </div>

@@ -55,7 +55,11 @@ const ModalExample = props => {
   return (
     <>
       <Button color="danger" onClick={toggle}>
-        {buttonLabel}
+        <img
+          height="15px"
+          src="https://cdn.onlinewebfonts.com/svg/img_191913.png"
+          alt="Open Cart"
+        />
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Total price: {TotalPrice} MDL</ModalHeader>
