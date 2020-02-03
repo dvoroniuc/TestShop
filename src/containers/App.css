@@ -1,0 +1,54 @@
+.col-sm-8 {
+  margin: auto;
+}
+
+.container {
+  padding: 1%;
+}
+
+.App {
+  background: #eeee;
+}
+
+.light {
+  background: #fff;
+}
+
+.fixed-filters {
+  position: fixed;
+  width: 20%;
+}
+
+@media (max-width: 839px) {
+  .fixed-filters {
+    position: inherit;
+  }
+  .filters-container {
+    max-width: 100%;
+  }
+  .card-img-top {
+    height: 100%;
+  }
+}
+
+.filters-container {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  min-height: 15rem;
+  min-width: 16.5rem;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 97%;
+}
+
+.head-container {
+  padding: 0.8rem 2.5rem;
+}
+
+.form-control .form-control {
+  width: 13rem;
+}
+
+.form-group {
+  min-width: 15rem;
+}
